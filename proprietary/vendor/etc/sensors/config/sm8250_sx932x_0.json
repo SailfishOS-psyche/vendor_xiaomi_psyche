@@ -1,6 +1,6 @@
 {
   "config":{
-    "hw_platform": ["MTP", "Surf", "HAYDN", "ALIOTH"],
+    "hw_platform": ["MTP", "Surf", "HAYDN", "PSYCHE"],
     "soc_id": ["321", "339", "356", "415", "356"]
   },
     "sx932x_0":{
@@ -61,14 +61,14 @@
       "irq_trigger_type":{ "type": "int", "ver": "0",
         "data": "4"
       },
-      "num_rail":{ "type": "int", "ver": "0",
+      "num_rail":{ "type": "int", "ver": "1",
         "data": "1"
       },
-      "rail_on_state":{ "type": "int", "ver": "0",
-        "data": "2"
+      "rail_on_state":{ "type": "int", "ver": "1",
+        "data": "1"
       },
-      "vddio_rail":{ "type": "str", "ver": "1",
-        "data": "/pmic/client/sensor_vddio_2"
+      "vddio_rail":{ "type": "str", "ver": "2",
+        "data": "/pmic/client/sensor_vddio"
       },
       "rigid_body_type":{ "type": "int", "ver": "0",
       "data": "0"
@@ -213,8 +213,8 @@
       "RegAFECTR4_0x24":{ "type": "int", "ver": "0",
         "data": "36"
       },
-      "RegAFECTR4":{ "type": "int", "ver": "2",
-        "data": "198"
+      "RegAFECTR4":{ "type": "int", "ver": "4",
+        "data": "197"
       },
       "RegAFECTR7_0x27":{ "type": "int", "ver": "0",
         "data": "39"
@@ -249,8 +249,8 @@
       "RegPROCTR0_0x30":{ "type": "int", "ver": "0",
         "data": "48"
       },
-      "RegPROCTR0":{ "type": "int", "ver": "2",
-        "data": "10"
+      "RegPROCTR0":{ "type": "int", "ver": "3",
+        "data": "12"
       },
       "RegPROCTR1_0x31":{ "type": "int", "ver": "0",
         "data": "49"
@@ -273,8 +273,8 @@
       "RegPROCTR6_0x36":{ "type": "int", "ver": "0",
         "data": "54"
       },
-      "RegPROCTR6":{ "type": "int", "ver": "2",
-        "data": "20"
+      "RegPROCTR6":{ "type": "int", "ver": "3",
+        "data": "25"
       },
       "RegPROCTR7_0x37":{ "type": "int", "ver": "0",
         "data": "55"
@@ -285,14 +285,14 @@
       "RegADVCTR2_0x42":{ "type": "int", "ver": "0",
         "data": "66"
       },
-      "RegADVCTR2":{ "type": "int", "ver": "2",
-        "data": "19"
+      "RegADVCTR2":{ "type": "int", "ver": "3",
+        "data": "27"
       },
       "RegADVCTR3_0x43":{ "type": "int", "ver": "0",
         "data": "67"
       },
-      "RegADVCTR3":{ "type": "int", "ver": "0",
-        "data": "0"
+      "RegADVCTR3":{ "type": "int", "ver": "1",
+        "data": "78"
       },
       "RegADVCTR4_0x44":{ "type": "int", "ver": "0",
         "data": "68"

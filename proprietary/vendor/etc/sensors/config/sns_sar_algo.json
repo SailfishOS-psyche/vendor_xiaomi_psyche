@@ -1,7 +1,7 @@
 {
   "config": {
     "hw_platform": [
-      "MTP", "Dragon", "Surf", "ALIOTH"
+      "MTP", "Dragon", "Surf", "PSYCHE"
     ],
     "soc_id": [
       "291", "246", "305", "321", "339", "356"
@@ -12,19 +12,19 @@
     ".params":{
       "owner": "sar_algo",
         "threshold1": {
-          "ver": "3", "type": "flt", "data": "50"
+          "ver": "2", "type": "flt", "data": "200"
         },
         "threshold2": {
-          "ver": "6", "type": "flt", "data": "230"
+          "ver": "3", "type": "flt", "data": "500"
         },
         "threshold3": {
-          "ver": "6", "type": "flt", "data": "230"
+          "ver": "2", "type": "flt", "data": "11200"
         },
         "threshold4": {
-          "ver": "6", "type": "flt", "data": "230"
+          "ver": "2", "type": "flt", "data": "11200"
         },
         "threshold5": {
-          "ver": "6", "type": "flt", "data": "230"
+          "ver": "2", "type": "flt", "data": "11200"
         },
         "use_acc_gyro": {
           "ver": "2", "type": "flt", "data": "0"

@@ -1,5 +1,5 @@
 EISWidthMargin=0.2
-EISHeightMargin=0.4
+EISHeightMargin=0.2
 SUPEREISHeightMargin=0.513513
 SUPEREISWidthMargin=0.351351
 SUPEREISUWHeightMargin=0.517
