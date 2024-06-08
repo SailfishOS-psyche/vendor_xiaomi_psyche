@@ -34,32 +34,16 @@
 },
 {
     "parsedFileInfo":{
-        "rootFile":"/mnt/vendor/persist/sensors/registry/registry/tcs3701_platform.channel.fac_cal",
+        "rootFile":"/mnt/vendor/persist/sensors/registry/registry/tmd3719_platform.als.fac_cal",
         "verDepth":1,
-        "rootObject":"tcs3701_platform.channel.fac_cal",
-        "items":["data_cch"]
-    },
-    "originalFileInfo":{
-        "rootFile":"/vendor/etc/sensors/config/sm8250_tcs3701.json",
-        "verDepth":3,
-        "rootObject":"tcs3701_platform",
-        "subRootObject1":".channel",
-        "subRootObject2":".fac_cal",
-        "items":["data_cch"]
-    }
-},
-{
-    "parsedFileInfo":{
-        "rootFile":"/mnt/vendor/persist/sensors/registry/registry/bu27030_back_0_platform.ambient_light.fac_cal",
-        "verDepth":1,
-        "rootObject":"bu27030_back_0_platform.ambient_light.fac_cal",
+        "rootObject":"tmd3719_platform.als.fac_cal",
         "items":["scale"]
     },
     "originalFileInfo":{
-        "rootFile":"/vendor/etc/sensors/config/sm8250_bu27030_0_back.json",
+        "rootFile":"/vendor/etc/sensors/config/sm8250_tmd3719.json",
         "verDepth":3,
-        "rootObject":"bu27030_back_0_platform",
-        "subRootObject1":".ambient_light",
+        "rootObject":"tmd3719_platform",
+        "subRootObject1":".als",
         "subRootObject2":".fac_cal",
         "items":["scale"]
     }
